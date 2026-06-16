@@ -1,0 +1,576 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Anny ❤️ | From Sneh</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:linear-gradient(135deg,#ffdce7,#ffeaf3,#fff7fb);
+    color:#111;
+    overflow-x:hidden;
+}
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:30px;
+}
+
+.hero-card{
+    background:rgba(255,255,255,.75);
+    backdrop-filter:blur(12px);
+    border-radius:30px;
+    padding:50px;
+    max-width:900px;
+    box-shadow:0 20px 50px rgba(0,0,0,.08);
+}
+
+.hero h1{
+    font-size:4rem;
+    margin-bottom:15px;
+}
+
+.hero p{
+    font-size:1.15rem;
+    line-height:1.8;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:14px 32px;
+    border:none;
+    border-radius:999px;
+    background:#111;
+    color:white;
+    text-decoration:none;
+    cursor:pointer;
+    transition:.3s;
+    font-weight:600;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+}
+
+section{
+    max-width:1200px;
+    margin:auto;
+    padding:80px 20px;
+}
+
+.section-title{
+    text-align:center;
+    font-size:2.5rem;
+    margin-bottom:40px;
+}
+
+.card{
+    background:white;
+    border-radius:25px;
+    padding:25px;
+    box-shadow:0 10px 25px rgba(0,0,0,.06);
+}
+
+.spotify-header{
+    display:flex;
+    gap:20px;
+    align-items:center;
+    margin-bottom:20px;
+}
+
+.album{
+    width:120px;
+    height:120px;
+    border-radius:20px;
+    background:linear-gradient(135deg,#ff7ca8,#ffb4c8);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:50px;
+}
+
+.reasons-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:18px;
+}
+
+.reason{
+    background:white;
+    padding:18px;
+    border-radius:18px;
+    box-shadow:0 8px 20px rgba(0,0,0,.05);
+}
+
+.jokes{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:20px;
+}
+
+.joke{
+    background:white;
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 8px 20px rgba(0,0,0,.05);
+}
+
+.memory{
+    background:white;
+    padding:20px;
+    margin-bottom:15px;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,.05);
+}
+
+.letter{
+    background:white;
+    padding:35px;
+    border-radius:20px;
+    line-height:1.9;
+    box-shadow:0 10px 25px rgba(0,0,0,.05);
+}
+
+.center{
+    text-align:center;
+}
+
+#happyMessage{
+    margin-top:20px;
+    font-size:1.3rem;
+    font-weight:600;
+}
+
+footer{
+    text-align:center;
+    padding:80px 20px;
+}
+
+.heart{
+    position:fixed;
+    bottom:-30px;
+    animation:float linear forwards;
+    pointer-events:none;
+    opacity:.8;
+}
+
+@keyframes float{
+    to{
+        transform:translateY(-110vh);
+        opacity:0;
+    }
+}
+
+@media(max-width:768px){
+
+.hero h1{
+    font-size:2.6rem;
+}
+
+.spotify-header{
+    flex-direction:column;
+    text-align:center;
+}
+
+}
+</style>
+</head>
+<body>
+
+<section class="hero">
+
+<div class="hero-card">
+
+<h1>Hey Anny 🌸</h1>
+
+<p>
+If you're reading this, I just want you to pause for a second.
+<br><br>
+Life gets messy sometimes.
+People can disappoint us.
+Days can feel heavier than they should.
+<br><br>
+But none of that changes how wonderful you are.
+<br><br>
+So I made this little website to remind you of something important:
+<br><br>
+✨ You matter. ✨
+<br>
+✨ You are appreciated. ✨
+<br>
+✨ You are loved. ✨
+<br><br>
+Made especially for you,
+<br>
+❤️ Sneh
+</p>
+
+<a href="#song" class="btn">Start Your Happiness Tour ✨</a>
+
+</div>
+
+</section>
+
+<section id="song">
+
+<h2 class="section-title">🎵 Your Comfort Song</h2>
+
+<div class="card">
+
+<div class="spotify-header">
+
+<div class="album">🎶</div>
+
+<div>
+<h3>Until I Found You</h3>
+<p>Stephen Sanchez</p>
+<p style="margin-top:10px;">
+A song that feels like a warm hug on a difficult day.
+</p>
+</div>
+
+</div>
+
+<iframe style="border-radius:12px"
+src="https://open.spotify.com/embed/track/3rmo8F54jFF8OgYsqTxm5d"
+width="100%"
+height="152"
+frameBorder="0"
+allowfullscreen=""
+allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+</iframe>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">💖 100 Reasons Why Anny Is Amazing</h2>
+
+<div class="reasons-grid" id="reasonsGrid"></div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">😂 Inside Joke Vault</h2>
+
+<div class="jokes">
+
+<div class="joke">
+<h3>File #001</h3>
+<p>Remember that thing we promised we'd never talk about again? Yeah... that thing. 😂</p>
+</div>
+
+<div class="joke">
+<h3>File #002</h3>
+<p>You: "I'm fine."<br><br>Also you: Creates 47 imaginary scenarios in 10 seconds.</p>
+</div>
+
+<div class="joke">
+<h3>File #003</h3>
+<p>Achievement Unlocked: Professional Overthinker 🏆</p>
+</div>
+
+<div class="joke">
+<h3>File #004</h3>
+<p>Emergency Protocol:<br>1. Panic<br>2. Snack<br>3. Everything is okay again.</p>
+</div>
+
+<div class="joke">
+<h3>File #005</h3>
+<p>Friendship Stats:<br>50% laughing<br>30% nonsense<br>20% emotional support.</p>
+</div>
+
+<div class="joke">
+<h3>File #006</h3>
+<p>Scientists are still investigating how our random conversations last so long.</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">📸 Memory Timeline</h2>
+
+<div class="memory">✨ The day we laughed so much we forgot what started it.</div>
+<div class="memory">✨ Every random conversation that became a core memory.</div>
+<div class="memory">✨ Every time you helped someone without expecting anything back.</div>
+<div class="memory">✨ Every challenge you survived when you thought you couldn't.</div>
+<div class="memory">✨ Today, because you're still here and still shining.</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">💌 Read This When You're Sad</h2>
+
+<div class="letter">
+
+Dear Anny,
+
+<br><br>
+
+Maybe today wasn't the day you hoped for.
+
+Maybe you're tired.
+Maybe you're overwhelmed.
+Maybe your heart feels a little heavier than usual.
+
+<br><br>
+
+That's okay.
+
+You're allowed to have difficult days.
+
+You're allowed to rest.
+
+You're allowed to feel everything you're feeling.
+
+<br><br>
+
+But please remember:
+
+You are not defined by your bad days.
+
+You are not defined by your mistakes.
+
+You are not defined by people who failed to appreciate your worth.
+
+<br><br>
+
+You are kind.
+
+You are strong.
+
+You are thoughtful.
+
+You are loved more than you realize.
+
+<br><br>
+
+And whenever you forget that,
+come back here.
+
+I'll remind you again.
+
+<br><br>
+
+❤️ Sneh
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">🚨 Emergency Happiness Button</h2>
+
+<div class="center">
+
+<button class="btn" onclick="showHappyMessage()">
+Make Me Smile
+</button>
+
+<div id="happyMessage"></div>
+
+</div>
+
+</section>
+
+<footer>
+
+<h2>🌷 Final Reminder</h2>
+
+<p style="margin-top:20px;">
+One bad day does not define you.
+<br><br>
+You are appreciated.
+<br>
+You are important.
+<br>
+You are loved.
+<br><br>
+And somewhere out there,
+Sneh is always rooting for you. ❤️
+</p>
+
+</footer>
+
+<script>
+
+const reasons = [
+"You're Anny.",
+"You make people smile without trying.",
+"Your laugh is contagious.",
+"You genuinely care about people.",
+"You have a kind heart.",
+"You make conversations better.",
+"You're stronger than you think.",
+"You always keep going.",
+"You have great taste.",
+"You make ordinary moments memorable.",
+"You are incredibly thoughtful.",
+"You notice little details others miss.",
+"You give good advice.",
+"You listen when people need it.",
+"You make your friends feel important.",
+"You have a beautiful smile.",
+"You bring comfort to people.",
+"You make life less boring.",
+"You have a wonderful personality.",
+"You're naturally funny.",
+"You make people feel welcome.",
+"You are unique.",
+"You are irreplaceable.",
+"You have a calming presence.",
+"You make bad days easier.",
+"You are creative.",
+"You inspire people more than you know.",
+"You have a big heart.",
+"You deserve happiness.",
+"You deserve peace.",
+"You deserve all the good things coming your way.",
+"You make people feel understood.",
+"You always try your best.",
+"You care deeply.",
+"You are genuine.",
+"You are honest.",
+"You make friendships special.",
+"You never stop growing.",
+"You have survived every difficult day so far.",
+"You are resilient.",
+"You are brave.",
+"You are stronger than your doubts.",
+"You have beautiful dreams.",
+"You make random conversations fun.",
+"You make people laugh unexpectedly.",
+"You are compassionate.",
+"You are dependable.",
+"You are trustworthy.",
+"You are incredibly lovable.",
+"You have a warm soul.",
+"You brighten rooms just by entering them.",
+"You make memories worth keeping.",
+"You are thoughtful in ways people notice.",
+"You make people feel safe.",
+"You make life sweeter.",
+"You have a beautiful spirit.",
+"You are full of potential.",
+"You always have something interesting to say.",
+"You make friends feel lucky.",
+"You have a lovely energy.",
+"You care about the people around you.",
+"You are patient when it matters.",
+"You are worth celebrating.",
+"You are enough exactly as you are.",
+"You make people feel appreciated.",
+"You have a beautiful way of caring.",
+"You are unforgettable.",
+"You are one of a kind.",
+"You have a soft heart and a strong mind.",
+"You bring positivity into people's lives.",
+"You are capable of amazing things.",
+"You make people feel less alone.",
+"You are someone people trust.",
+"You are stronger than any bad day.",
+"You have a spark that can't be replaced.",
+"You are naturally kind.",
+"You make every friendship better.",
+"You are a blessing to the people who know you.",
+"You always leave a positive impact.",
+"You deserve to be proud of yourself.",
+"You are important.",
+"You matter.",
+"You are appreciated.",
+"You are valued.",
+"You are cherished.",
+"You are admired.",
+"You are loved.",
+"You are beautiful inside and out.",
+"You make the world a little brighter.",
+"You make hard times easier for people.",
+"You have a rare kindness.",
+"You deserve every smile you receive.",
+"You make life more fun.",
+"You make people happy.",
+"You have a wonderful future ahead of you.",
+"You have already come so far.",
+"You are amazing in your own way.",
+"You are stronger than yesterday.",
+"You are exactly who you're meant to be.",
+"Because Sneh believes in you.",
+"Because Sneh cares about you.",
+"Because the world is genuinely better with Anny in it. ❤️"
+];
+
+const grid = document.getElementById("reasonsGrid");
+
+reasons.forEach((reason,index)=>{
+const card=document.createElement("div");
+card.className="reason";
+card.innerHTML="<strong>"+(index+1)+".</strong> "+reason;
+grid.appendChild(card);
+});
+
+const messages=[
+"🌸 You are doing better than you think.",
+"❤️ Sneh thinks you're awesome.",
+"✨ Better days are coming.",
+"☀️ Drink some water, superstar.",
+"🌈 One bad day isn't your whole story.",
+"🦋 You're stronger than your doubts.",
+"💖 You are loved more than you know.",
+"⭐ Keep going, you've got this.",
+"🌷 The world is brighter with you in it."
+];
+
+function showHappyMessage(){
+document.getElementById("happyMessage").innerHTML =
+messages[Math.floor(Math.random()*messages.length)];
+}
+
+function createHeart(){
+const heart=document.createElement("div");
+heart.className="heart";
+heart.innerHTML="❤️";
+heart.style.left=Math.random()*100+"vw";
+heart.style.fontSize=(15+Math.random()*25)+"px";
+heart.style.animationDuration=(4+Math.random()*5)+"s";
+document.body.appendChild(heart);
+
+setTimeout(()=>{
+heart.remove();
+},9000);
+}
+
+setInterval(createHeart,350);
+
+</script>
+
+</body>
+</html>
+```
